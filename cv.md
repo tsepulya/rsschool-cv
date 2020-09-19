@@ -3,7 +3,7 @@
  mob. +7 921 388 68 28
  <br>e-mail: tsepeleva_anna@mail.ru
  <h3>Objective:</h3>
- Front-end
+ Front-end (JS)
  <h3>Work experience:</h3>
 <br>1.Economist (sphere of construction)
 <br>2.Public and social work in projects (International Children\`s and Student\`s Forum)
