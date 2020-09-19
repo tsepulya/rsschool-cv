@@ -1,0 +1,19 @@
+<h2>Tsepeleva Anna</h2>
+ <h3>Contacts</h3>
+ mob. +7 921 388 68 28
+ <br>e-mail: tsepeleva_anna@mail.ru
+ <h3>Objective:</h3>
+ Front-end
+ <h3>Work experience:</h3>
+<br>1.Economist (sphere of construction)
+<br>2.Public and social work in projects (International Children\`s and Student\`s Forum)
+<h3>Education:</h3>
+1.Candidate of Economic Sciences                                   
+<br>Saint-Petersburg State University of Economics
+<br>2.Specialist in public relations                                         
+<br>Lesgaft National State University of Physical Education, Sports and Health, St. Petersburg
+<h3>Skills</h3>
+<b>English</b> - Upper Intermediate
+<br><b>Spanish</b> - A2
+<h3>Personal quality</h3>
+responsability, communication skills, easy trained
