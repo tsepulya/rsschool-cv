@@ -1,33 +1,91 @@
 <!DOCTYPE html>
-<html>
-  <head>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
     <title>CV</title>
-  </head>
-  <style>
-    .center {
-      text-align: center;
-    }
-  </style>
-  <body class="center">
-    <h2>Tsepeleva Anna</h2>
- <h3>Contacts</h3>
- mob. +7 921 388 68 28
- <br>e-mail: tsepeleva_anna@mail.ru
- <img src="/https://github.com/tsepulya/rsschool-cv/blob/rsschool-cv-html/ava.jpeg">
-    <h3>Objective:</h3>
- Front-end
- <h3>Work experience:</h3>
-<br>1.Economist (sphere of construction)
-<br>2.Public and social work in projects (International Children\`s and Student\`s Forum)
-<h3>Education:</h3>
-1.Candidate of Economic Sciences                                   
-<br>Saint-Petersburg State University of Economics
-<br>2.Specialist in public relations                                         
-<br>Lesgaft National State University of Physical Education, Sports and Health, St. Petersburg
-<h3>Skills</h3>
-<b>English</b> - Upper Intermediate
-<br><b>Spanish</b> - A2
-<h3>Personal quality</h3>
-responsability, communication skills, easy trained
-  </body>
+</head>
+
+<body>
+    <div class="container">
+        <header class="name">
+            <h1>Tsepeleva Anna</h1>
+        </header>
+        <section class="personal">
+            <div class="ava">
+                <img src="img/ava.jpg" alt="photo">
+            </div>
+            <aside class="information">
+                <h3>Objective</h3>
+                <p>Front-end developer</p>
+                <h3>Contacts</h3>
+                <div class="phone">
+                    <img src="img/phone.svg" alt="icon phone">
+                    <p>+7 921 388 68 28</p>
+                </div>
+                <div class="email">
+                    <img src="img/mail.png" alt="icon mail">
+                    <p>tsepeleva_anna@mail.ru</p>
+                </div>
+            </aside>
+        </section>
+        <main class="main">
+            <div class="experience">
+                <div class="titleMain">
+                    <img src="img/work.png" alt="icon work">
+                    <h3>Work experience</h3>
+                </div>
+                <ol>
+                    <li>Economist (sphere of construction)</li>
+                    <li>Public and social work in projects (International Children\`s and Student\`s Forum)</li>
+                </ol>
+            </div>
+            <div class="education">
+                <div class="titleMain">
+                    <img src="img/education.png" alt="icon education">
+                    <h3>Education</h3>
+                </div>
+                <ol>
+                    <li>Candidate of Economic Sciences<br>Saint-Petersburg State University of Economics</li>
+                    <li>Specialist in public relations<br>Lesgaft National State University of Physical Education, Sports and Health, St. Petersburg</li>
+                </ol>
+            </div>
+            <div class="skills">
+                <div class="titleMain">
+                    <img src="img/skills.png" alt="icon skills">
+                    <h3>Skills</h3>
+                </div>
+                <ul>
+                    <li><b>English</b> - Upper Intermediate</li>
+                    <li><b>Spanish</b> - A2</li>
+                </ul>
+
+            </div>
+            <div class="quality">
+                <div class="titleMain">
+                    <img src="img/quality.png" alt="icon skills">
+                    <h3>Personal quality</h3>
+                </div>
+                <ul>
+                    <li>responsability</li>
+                    <li>communication skills</li>
+                    <li>easy trained</li>
+                </ul>
+            </div>
+        </main>
+        <footer class="footer">
+            <p class="line"></p>
+            <div>
+                <a href="https://rs.school/js/"><img src="img/logo.svg" alt="logotype RSS"></a>
+                <p>2021</p>
+            </div>
+
+        </footer>
+    </div>
+</body>
+
 </html>
