@@ -1,9 +1,13 @@
+# rsschool-cv
+
 ## Tsepeleva Anna
 *********
 
 
 ### Contacts
-
+* **GitHub**: tsepulya
+* **Telegram**: @tsepulya
+* **Discord**: tsepulya
 
 *********
 ### About me
