@@ -71,6 +71,6 @@ Object.prototype.hash = function(string) {
 }
 ```
 
+*********
+[<img src="img/logo.jpg" alt="The Rolling Scopes School" width="10%" />](https://rs.school/)
 
-
-<!--добавить логотип курса -->
