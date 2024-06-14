@@ -56,5 +56,21 @@ Now, I\`m in decree and have some free time to learn and practice something new.
 *********
 ## Code examples
 
+```
+Object.prototype.hash = function(string) {
+  let obj = this;
+  string.split(".").forEach(function(prop) { 
+    try {
+      obj = obj[prop];
+    }
+    catch(err) { 
+      obj = undefined;
+    }
+  });
+  return obj;
+}
+```
+
+
 
 <!--добавить логотип курса -->
