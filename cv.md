@@ -3,30 +3,58 @@
 ## Tsepeleva Anna
 *********
 
+## Contacts
 
-### Contacts
 * **GitHub**: tsepulya
 * **Telegram**: @tsepulya
 * **Discord**: tsepulya
 
 *********
-### About me
+## About me
 
-
-*********
-### Skills
-
+Now, I\`m in decree and have some free time to learn and practice something new. I love codding and maybe I\`ll do it the part of my new profession...
 
 *********
-### Education
+## Skills
 
+* Python
+* Pandas
+* HTML
+* CSS (SASS/SCSS)
+* JavaScript
+* TypeScript
 
 *********
-### Languages
+## Work experience
 
+1. Economist (sphere of construction)
+
+2. Public and social work in projects (International Children\`s and Student\`s Forum)
 
 *********
-### Code examples
+## Education
+
+1. Data Analyst
+
+    Yandex Practicum
+
+2. Candidate of Economic Sciences
+
+    Saint-Petersburg State University of Economics
+
+3. Specialist in public relations
+
+    Lesgaft National State University of Physical Education, Sports and Health, St. Petersburg
+
+*********
+## Languages
+
+**English** - Upper Intermediate
+
+**Spanish** - A2
+
+*********
+## Code examples
 
 
 <!--добавить логотип курса -->
