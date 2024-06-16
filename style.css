@@ -165,5 +165,42 @@ header {
 
 .contacts {
   background-color: #f8b6b6;
+  height: 100%;
+  padding: 30px;
 }
 
+.contacts-list {
+  list-style: none;
+}
+
+.contacts-item {
+  display: flex;
+  align-items: center;
+}
+
+.section_head {
+  margin: 0px;
+  text-transform: uppercase;
+  color: white;
+}
+
+.contacts_name {
+  margin: 10px;
+  color: #3a3a3c;
+}
+
+.contact {
+  color: #3a3a3c;
+}
+
+
+
+
+
+
+
+
+
+.delete {
+  height: 400px;
+}
