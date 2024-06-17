@@ -149,6 +149,8 @@ header {
   height: 20%;
 }
 
+/* ava */
+
 .ava {
   background-color: #f8b6b6;
   display: flex;
@@ -162,6 +164,8 @@ header {
   height: 100%;
   border-radius: 50%;
 }
+
+/* contacts */
 
 .contacts {
   background-color: #f8b6b6;
@@ -197,6 +201,8 @@ header {
   color: #3a3a3c;
 }
 
+/* about me */
+
 .about-wrapper {
   padding: 20px;
 }
@@ -207,54 +213,7 @@ header {
   text-align: justify;
 }
 
-.languages-container {
-  display: flex;
-  justify-content: space-around;
-  align-items: end;
-  margin: 20px;
-}
-
-.level {
-  width: 30px;
-  height: 30px;
-}
-
-.c {
-  background-color: #f6f6f6;
-}
-
-.b2 {
-  background-color: #d5d6d8;
-}
-
-.b1 {
-  background-color: #acafb4;
-}
-
-.a2 {
-  background-color: #898c91;
-}
-
-.a1 {
-  background-color: #696a6e;
-}
-
-.language-name {
-  margin: 10px 0px;
-  background-color: #f8b6b6;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.lang {
-  font-weight: 900;
-}
-
-pre {
-  margin: 20px;
-  background-color: #f8b6b6;
-}
+/* education */
 
 .education-container {
   display: flex;
@@ -328,6 +287,88 @@ pre {
 .education-speciality {
   font-weight: 300;
 }
+
+/* skills */
+
+.skills-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skill-name {
+  margin: 8px;
+  width: 20%;
+  background-color: #f8b6b6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.skill {
+  font-weight: 900;
+}
+
+/* projects */
+
+/* languages */
+
+.languages-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: end;
+  margin: 20px;
+}
+
+.level {
+  width: 30px;
+  height: 30px;
+}
+
+.c {
+  background-color: #f6f6f6;
+}
+
+.b2 {
+  background-color: #d5d6d8;
+}
+
+.b1 {
+  background-color: #acafb4;
+}
+
+.a2 {
+  background-color: #898c91;
+}
+
+.a1 {
+  background-color: #696a6e;
+}
+
+.language-name {
+  margin: 10px 0px;
+  background-color: #f8b6b6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lang {
+  font-weight: 900;
+}
+
+/* code example */
+
+pre {
+  margin: 20px;
+  background-color: #f8b6b6;
+}
+
+
+
+
+
+
+
 
 
 
