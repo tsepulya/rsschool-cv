@@ -136,7 +136,7 @@ header {
 
 .second-block {
   border-bottom: 4px solid white;
-  height: 430px;
+  height: 360px;
 }
 
 .third-block {
@@ -214,6 +214,8 @@ header {
 
 /* education */
 
+
+
 .education-container {
   display: flex;
   flex-direction: column;
@@ -221,12 +223,13 @@ header {
 }
 
 .education-item {
-  margin: 10px;
   display: flex;
+  align-items: center;
+  margin: 10px;
 }
 
-.hexagon {
-  margin: 16px; 
+/* .hexagon {
+  margin: 20px; 
   width: 100px; 
   height: 55px;
   background: white;
@@ -258,7 +261,7 @@ header {
 }
 
 .hex-pink {
-  margin: 18px; 
+  margin: 24px; 
   background: #f8b6b6;
 }
 
@@ -268,6 +271,25 @@ header {
 
 .hex-pink:after {
   border-top: 25px solid #f8b6b6;
+} */
+
+.hexagon {
+  background: white;
+  width: 80px;
+  padding: 10px;
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.hex-pink {
+  background: #f8b6b6;
+}
+
+.education-place, .education-speciality {
+  margin: 0;
 }
 
 .education-short {
@@ -318,7 +340,9 @@ header {
 .project-wrapper {
   display: flex;
   align-items: start;
+  margin-bottom: 10px;
 }
+
 
 .round {
   width: 10px;
@@ -338,6 +362,7 @@ header {
 
 .project-name {
   margin: 0px;
+  margin-bottom: 6px;
 }
 
 .project-link {
@@ -507,4 +532,42 @@ pre {
   width: 90%;
   height: 2px;
   background-color: #949599;
+}
+
+/* footer */
+
+.footer-container {
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer-git {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 30%;
+}
+
+.link-git {
+  text-decoration: none;
+  color: white;
+  margin-left: 10px;
+}
+
+.footer-year {
+  color: white;
+  font-size: 24px;
+}
+
+.link-rss {
+  display: flex;
+  justify-content: flex-end;
+  width: 30%;
+}
+
+.footer-logo {
+  width: 30%;
+  border-radius: 10px;
 }
