@@ -136,7 +136,7 @@ header {
 
 .second-block {
   border-bottom: 4px solid white;
-  height: 40%;
+  height: 30%;
 }
 
 .third-block {
@@ -166,7 +166,6 @@ header {
 .contacts {
   background-color: #f8b6b6;
   height: 100%;
-  padding: 30px;
 }
 
 .contacts-list {
@@ -179,9 +178,14 @@ header {
 }
 
 .section_head {
-  margin: 0px;
+  margin: 10px;
   text-transform: uppercase;
   color: white;
+}
+
+.contacts_head {
+  margin: 0px;
+  padding: 10px;
 }
 
 .contacts_name {
@@ -193,7 +197,15 @@ header {
   color: #3a3a3c;
 }
 
+.about-wrapper {
+  padding: 20px;
+}
 
+.about-text {
+  color: white;
+  font-weight: 300;
+  text-align: justify;
+}
 
 .languages-container {
   display: flex;
@@ -243,6 +255,80 @@ pre {
   margin: 20px;
   background-color: #f8b6b6;
 }
+
+.education-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.education-item {
+  margin: 10px;
+  display: flex;
+
+}
+
+.hexagon {
+  margin: 20px; 
+  width: 100px; 
+  height: 55px;
+  background: white;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+
+  .hexagon:before, 
+  .hexagon:after {
+  content: "";
+  width: 0; 
+  height: 0;
+  position: absolute; 
+  left: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  }
+
+  .hexagon:before {
+  top: -25px;
+  border-bottom: 25px solid white;
+  }
+
+  .hexagon:after {
+  bottom: -25px;
+  border-top: 25px solid white;
+  }
+
+.hex-pink {
+  background: #f8b6b6;
+}
+
+.hex-pink:before {
+  border-bottom: 25px solid #f8b6b6;
+}
+
+.hex-pink:after {
+  border-top: 25px solid #f8b6b6;
+}
+
+.education-short {
+  font-weight: 900;
+}
+
+.education-name {
+  color: white;
+}
+
+.education-place {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.education-speciality {
+  font-weight: 300;
+}
+
 
 
 .delete {
