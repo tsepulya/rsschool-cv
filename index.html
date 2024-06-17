@@ -20,6 +20,8 @@
             <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
             <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
             <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+            <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+            <li class="nav-item"><a href="#code" class="nav-link">Code example</a></li>
           </ul>
         </nav>
       </div>
@@ -43,8 +45,36 @@
           </div>
         </div>
         <div class="fouth-block">
-          <div class="languages">languages
-            
+          <div class="languages" id="languages">
+            <h2 class="section_head">languages</h2>
+            <div class="languages-container">
+              <div class="language russian">
+                <div class="level c"></div>
+                <div class="level b2"></div>
+                <div class="level b1"></div>
+                <div class="level a2"></div>
+                <div class="level a1"></div>
+                <div class="level language-name">
+                  <p class="lang">Ru</p>
+                </div>
+              </div>
+              <div class="language english">
+                <div class="level b2"></div>
+                <div class="level b1"></div>
+                <div class="level a2"></div>
+                <div class="level a1"></div>
+                <div class="level language-name">
+                  <p class="lang">En</p>
+                </div>
+              </div>
+              <div class="language spanish">
+                <div class="level a2"></div>
+                <div class="level a1"></div>
+                <div class="level language-name">
+                  <p class="lang">Es</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -82,12 +112,27 @@
           </div>
         </div>
         <div class="fouth-block">
-          <div class="code">code example
-            <div class="delete">fvbfgb</div>
+          <div class="code" id="code">
+            <h2 class="section_head">code example</h2>
+            <pre><code>
+              Object.prototype.hash = function(string) {
+                let obj = this;
+                string.split(".").forEach(function(prop) { 
+                  try {
+                    obj = obj[prop];
+                  }
+                  catch(err) { 
+                    obj = undefined;
+                  }
+                });
+                return obj;
+              }
+            </code></pre>
           </div>
         </div>
       </div>
-      <div class="experience">experience</div>
+      <div class="experience">experience
+      </div>
     </div>
   </main>
 </body>
