@@ -295,7 +295,8 @@ header {
 }
 
 .skill-name {
-  margin: 8px;
+  margin: 6px;
+  padding: 2px;
   width: 20%;
   background-color: #f8b6b6;
   display: flex;
@@ -304,7 +305,8 @@ header {
 }
 
 .skill {
-  font-weight: 900;
+  font-weight: 700;
+  font-size: 14px;
 }
 
 /* projects */
@@ -402,7 +404,7 @@ pre {
   display: flex;
   align-items: stretch;
   height: 800px;
-  padding: 30px;
+  padding: 10px;
 }
 
 .years_scale {
