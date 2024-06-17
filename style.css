@@ -117,7 +117,7 @@ header {
 }
 
 .main-info {
-  width: 50%;
+  width: 60%;
   display: flex;
   flex-direction: column;
   border-left: 2px solid #949599;
@@ -125,28 +125,27 @@ header {
 }
 
 .experience {
-  width: 30%;
+  width: 20%;
 }
 
 .first-block {
   border-bottom: 4px solid white;
   padding: 10px 0px;
-  height: 20%;
+  height: 260px;
 }
 
 .second-block {
   border-bottom: 4px solid white;
-  height: 30%;
+  height: 430px;
 }
 
 .third-block {
   border-bottom: 4px solid white;
-  height: 20%;
+  height: 260px;
 }
 
 .fouth-block {
-  border-bottom: 4px solid white;
-  height: 20%;
+  border-bott300260px;
 }
 
 /* ava */
@@ -224,11 +223,10 @@ header {
 .education-item {
   margin: 10px;
   display: flex;
-
 }
 
 .hexagon {
-  margin: 20px; 
+  margin: 16px; 
   width: 100px; 
   height: 55px;
   background: white;
@@ -236,10 +234,10 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  }
+}
 
-  .hexagon:before, 
-  .hexagon:after {
+.hexagon:before, 
+.hexagon:after {
   content: "";
   width: 0; 
   height: 0;
@@ -247,19 +245,20 @@ header {
   left: 0;
   border-left: 50px solid transparent;
   border-right: 50px solid transparent;
-  }
+}
 
-  .hexagon:before {
+.hexagon:before {
   top: -25px;
   border-bottom: 25px solid white;
-  }
+}
 
-  .hexagon:after {
+.hexagon:after {
   bottom: -25px;
   border-top: 25px solid white;
-  }
+}
 
 .hex-pink {
+  margin: 18px; 
   background: #f8b6b6;
 }
 
@@ -309,6 +308,40 @@ header {
 }
 
 /* projects */
+
+.projects-wrapper {
+  color: white;
+}
+
+.project-wrapper {
+  display: flex;
+  align-items: start;
+}
+
+.round {
+  width: 10px;
+  height: 10px;
+  background-color: #f8b6b6;
+  border-radius: 50%;
+  margin: 4px 10px;
+}
+
+.rectangle {
+  width: 30px;
+  height: 4px;
+  background-color: #f8b6b6;
+  margin: 8px 10px;
+}
+
+
+.project-name {
+  margin: 0px;
+}
+
+.project-link {
+  color: #f8b6b6;
+  text-decoration: none;
+}
 
 /* languages */
 
@@ -363,15 +396,113 @@ pre {
   background-color: #f8b6b6;
 }
 
+/* experience */
 
+.experience_container {
+  display: flex;
+  align-items: stretch;
+  height: 800px;
+  padding: 30px;
+}
 
+.years_scale {
+  background-color: #949599;
+  padding: 4px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 
+.year {
+  font-weight: 500;
+  margin: 10px;
+}
 
+.work_scale {
+  width: 30px;
+  height: 100%;
+}
 
+.work {
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
 
+.yp {
+  background-color: white;
+  height: 10%;
+}
 
+.pm {
+  background-color: #f8b6b6;
+  opacity: 0.3;
+  height: 40%;
+}
 
+.univ {
+  background-color: #f8b6b6;
+  opacity: 0.6;
+  height: 22%;
+}
 
-.delete {
-  height: 400px;
+.st {
+  background-color: #f8b6b6;
+  height: 28%;
+}
+
+.work_names {
+  height: 100%;
+  color: white;
+}
+
+.worker, .position {
+  margin: 0px 20px;
+}
+
+.worker {
+  font-weight: 700;
+}
+
+.position {
+  font-weight: 300;
+}
+
+.name_yp {
+  height: 10%;
+}
+
+.name_pm {
+  height: 40%;
+  padding-top: 70px;
+}
+
+.name_univ {
+  height: 22%;
+  padding-top: 20px;
+}
+
+.name_st {
+  height: 28%;
+  padding-top: 40px;
+}
+
+.work-underline {
+  margin-left: -20px;
+  display: flex;
+  align-items: center;
+}
+
+.work-round {
+  width: 10px;
+  height: 10px;
+  border-radius: 50px;
+  background-color: #949599;
+}
+
+.work-line {
+  width: 90%;
+  height: 2px;
+  background-color: #949599;
 }
