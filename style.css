@@ -228,51 +228,6 @@ header {
   margin: 10px;
 }
 
-/* .hexagon {
-  margin: 20px; 
-  width: 100px; 
-  height: 55px;
-  background: white;
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.hexagon:before, 
-.hexagon:after {
-  content: "";
-  width: 0; 
-  height: 0;
-  position: absolute; 
-  left: 0;
-  border-left: 50px solid transparent;
-  border-right: 50px solid transparent;
-}
-
-.hexagon:before {
-  top: -25px;
-  border-bottom: 25px solid white;
-}
-
-.hexagon:after {
-  bottom: -25px;
-  border-top: 25px solid white;
-}
-
-.hex-pink {
-  margin: 24px; 
-  background: #f8b6b6;
-}
-
-.hex-pink:before {
-  border-bottom: 25px solid #f8b6b6;
-}
-
-.hex-pink:after {
-  border-top: 25px solid #f8b6b6;
-} */
-
 .hexagon {
   background: white;
   width: 80px;
@@ -314,10 +269,11 @@ header {
 .skills-wrapper {
   display: flex;
   flex-wrap: wrap;
+  padding: 0px;
 }
 
 .skill-name {
-  margin: 6px;
+  margin: 4px;
   padding: 2px;
   width: 20%;
   background-color: #f8b6b6;
